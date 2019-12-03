@@ -117,7 +117,7 @@ class MyForm extends FormBase {
      if($gender=='Prefer not to say'){
        $gensen = '';//Gender sentence
      } else {
-       $gensen = 'You are ' . $gender . '.';
+       $gensen = ' You are ' . $gender . '.';
      }
 
      $messenger->addMessage($this->t('Your name is @name. Your age is @age.@gensen Your date of birth is @bday.', ['@name' => $name, '@age' => $age, '@gensen' => $gensen, '@bday' => $bday]));
