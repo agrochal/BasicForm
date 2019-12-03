@@ -1,0 +1,7 @@
+BasicForm.MyForm:
+  path: 'myform'
+  defaults:
+    _form: '\Drupal\BasicForm\Form\MyForm'
+    _title: 'BasicForm'
+  requirements:
+    _permission: 'access content'

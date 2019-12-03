@@ -1,0 +1,4 @@
+name: BasicForm
+description: Basic form page in Drupal
+type: module
+core: 8.x
